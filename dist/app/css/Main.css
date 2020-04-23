@@ -1,0 +1,26 @@
+#configPanelContainer {
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#configPanelContainer #viewDiv {
+  width: 65%;
+  height: 100%;
+}
+#configPanelContainer #configPanel {
+  width: 35%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.save-button {
+  position: absolute;
+  bottom: 3vh;
+  left: 36vw;
+}
+
+/*# sourceMappingURL=Main.css.map */
